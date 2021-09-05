@@ -18,6 +18,10 @@ para obter como retorno da api um token que pode ser usado para se autenticar at
  obriga que o usuário esteja autenticado e que tenha a Role/Perfil 'Matematico'
 </p>
 
+<p>
+ Também criei alguns testes unitários com o XUnit para testar a classe de operações matemáticas e validar a integridade das operações
+</p>
+
 
 ## Para executar esse projeto:
 - realize o clone do repositório com o git bash ou faça o download
