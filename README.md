@@ -4,12 +4,15 @@ Api simples feita com ASP.NET Core Web Api para realização de operações mate
 <p>  Está api está documentada com o Swagger e poderá testada assim que executar o projeto. <br/>
 Também implementei autenticação com JWT, disponibilizei um controller e uma action onde é possivel fazer o login com dados de email e senha <br/>
 para obter como retorno da api um token que pode ser usado para se autenticar através do proprio Swagger.
+ </p>
+ 
 ### Os seguintes logins poderam ser usados para se autenticar:
  - email: joao@gmail.com, senha: 123456, perfil: Aluno
  - email: marcelo@gmail.com, senha: 123456, perfil: Aluno
  - email: maria@gmail.com, senha: 123456, perfil: Matematico
  - email: roberto@gmail.com, senha: 123456, perfil: Matematico
  
+<p>
  Esses dados de login estão em memoria, não implementei acesso ao banco de dados. <br/>
  O endpoint para somar números é aberto para ser usado livremente, o de multiplicar obriga que o usuário esteja autenticado e o de dividir <br/>
  obriga que o usuário esteja autenticado e que tenha a Role/Perfil 'Matematico'
