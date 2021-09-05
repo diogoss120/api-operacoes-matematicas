@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bootcamp", "Bootcamp\Bootcamp.csproj", "{090539A3-2677-4860-8E09-5D2D56D0399E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bootcamp.Tests", "Bootcamp.Tests\Bootcamp.Tests.csproj", "{B2564C86-CBF8-4287-B836-9B80E3BAF42E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{090539A3-2677-4860-8E09-5D2D56D0399E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{090539A3-2677-4860-8E09-5D2D56D0399E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{090539A3-2677-4860-8E09-5D2D56D0399E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{090539A3-2677-4860-8E09-5D2D56D0399E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2564C86-CBF8-4287-B836-9B80E3BAF42E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2564C86-CBF8-4287-B836-9B80E3BAF42E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2564C86-CBF8-4287-B836-9B80E3BAF42E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2564C86-CBF8-4287-B836-9B80E3BAF42E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F0AF421-E911-49AD-AB06-E55D46AF2061}
+	EndGlobalSection
+EndGlobal
